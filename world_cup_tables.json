@@ -1,0 +1,4827 @@
+{
+  "event": "stats_season_tables",
+  "_dob": 1782350918,
+  "_maxage": 60,
+  "data": {
+    "_id": "101177",
+    "_doc": "season",
+    "_utid": 16,
+    "_sid": 1,
+    "name": "World Cup 2026",
+    "abbr": "WC 2026",
+    "start": {
+      "_doc": "time",
+      "time": "00:00",
+      "date": "11/06/26",
+      "tz": "UTC",
+      "tzoffset": 0,
+      "uts": 1781136000
+    },
+    "end": {
+      "_doc": "time",
+      "time": "23:59",
+      "date": "19/07/26",
+      "tz": "UTC",
+      "tzoffset": 0,
+      "uts": 1784505599
+    },
+    "neutralground": true,
+    "friendly": false,
+    "currentseasonid": 101177,
+    "year": "2026",
+    "tables": [
+      {
+        "_doc": "statistics_leaguetable",
+        "_id": "81531",
+        "parenttableid": null,
+        "leaguetypeid": null,
+        "parenttableids": {},
+        "seasonid": "101177",
+        "maxrounds": 3,
+        "currentround": 2,
+        "presentationid": 0,
+        "name": "Group A",
+        "abbr": "FIFA World C",
+        "groupname": "A",
+        "tournament": {
+          "_doc": "tournament",
+          "_id": 3954,
+          "_sid": 1,
+          "_rcid": 4,
+          "_isk": 11,
+          "_tid": 3954,
+          "_utid": 16,
+          "_gender": "men",
+          "name": "FIFA World Cup, Group A",
+          "abbr": "WCGA",
+          "livetable": 81531,
+          "friendly": false,
+          "ground": null,
+          "tournamentlevelorder": 7002,
+          "tournamentlevelname": "",
+          "outdated": false,
+          "roundbyround": true,
+          "seasontype": "21",
+          "seasontypename": "Group stage",
+          "seasontypeunique": "91",
+          "groupname": "A",
+          "seasonid": 101177,
+          "currentseason": 101177,
+          "year": "2026"
+        },
+        "realcategory": {
+          "_doc": "realcategory",
+          "_id": 4,
+          "_sid": 1,
+          "_rcid": 4,
+          "name": "International",
+          "cc": null
+        },
+        "rules": {
+          "_doc": "tiebreakrule",
+          "_id": 81531,
+          "name": "In the event that two (or more) teams finish with an equal number of points, the following rules break the tie:\n1. Head-to-head games between the teams concerned\n1a. Points total\n1b. Goal difference\n1c. Goals scored\n2. Overall goal difference\n3. Overall number of goals scored\n4. Disciplinary points\n5. Higher position in FIFA World Ranking"
+        },
+        "totalrows": 4,
+        "tablerows": [
+          {
+            "_doc": "tablerow",
+            "_id": 189790890,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 1
+            },
+            "changeTotal": 0,
+            "drawTotal": 0,
+            "goalDiffTotal": 3,
+            "goalsAgainstTotal": 0,
+            "goalsForTotal": 3,
+            "lossTotal": 0,
+            "total": 2,
+            "pointsTotal": 6,
+            "pos": 1,
+            "sortPositionTotal": 1,
+            "team": {
+              "_doc": "team",
+              "_id": 9730,
+              "_sid": 1,
+              "uid": 4781,
+              "virtual": false,
+              "name": "Mexico",
+              "mediumname": "Mexico",
+              "abbr": "MEX",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 138,
+                "a2": "mx",
+                "name": "Mexico",
+                "a3": "MEX",
+                "ioc": "MEX",
+                "continentid": 2,
+                "continent": "North America",
+                "population": 107500000
+              }
+            },
+            "winTotal": 2
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189790888,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 2
+            },
+            "changeTotal": 0,
+            "drawTotal": 0,
+            "goalDiffTotal": 0,
+            "goalsAgainstTotal": 2,
+            "goalsForTotal": 2,
+            "lossTotal": 1,
+            "total": 2,
+            "pointsTotal": 3,
+            "pos": 2,
+            "sortPositionTotal": 2,
+            "team": {
+              "_doc": "team",
+              "_id": 34828,
+              "_sid": 1,
+              "uid": 4735,
+              "virtual": false,
+              "name": "Korea Republic",
+              "mediumname": "Korea Republic",
+              "abbr": "KOR",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 113,
+                "a2": "kr",
+                "name": "Republic of Korea",
+                "a3": "KOR",
+                "ioc": "KOR",
+                "continentid": 5,
+                "continent": "Asia",
+                "population": 49700000
+              }
+            },
+            "winTotal": 1
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189790884,
+            "changeTotal": 0,
+            "drawTotal": 1,
+            "goalDiffTotal": -1,
+            "goalsAgainstTotal": 3,
+            "goalsForTotal": 2,
+            "lossTotal": 1,
+            "total": 2,
+            "pointsTotal": 1,
+            "pos": 3,
+            "sortPositionTotal": 3,
+            "team": {
+              "_doc": "team",
+              "_id": 9509,
+              "_sid": 1,
+              "uid": 4714,
+              "virtual": false,
+              "name": "Czechia",
+              "mediumname": "Czechia",
+              "abbr": "CZE",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 57,
+                "a2": "cz",
+                "name": "Czechia",
+                "a3": "CZE",
+                "ioc": "CZE",
+                "continentid": 1,
+                "continent": "Europe",
+                "population": 10501197
+              }
+            },
+            "winTotal": 0
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189790886,
+            "changeTotal": 0,
+            "drawTotal": 1,
+            "goalDiffTotal": -2,
+            "goalsAgainstTotal": 3,
+            "goalsForTotal": 1,
+            "lossTotal": 1,
+            "total": 2,
+            "pointsTotal": 1,
+            "pos": 4,
+            "sortPositionTotal": 4,
+            "team": {
+              "_doc": "team",
+              "_id": 17949,
+              "_sid": 1,
+              "uid": 4736,
+              "virtual": false,
+              "name": "South Africa",
+              "mediumname": "South Africa",
+              "abbr": "RSA",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 197,
+                "a2": "za",
+                "name": "South Africa",
+                "a3": "ZAF",
+                "ioc": "RSA",
+                "continentid": 4,
+                "continent": "Africa",
+                "population": 49300000
+              }
+            },
+            "winTotal": 0
+          }
+        ],
+        "tournamentid": 3954,
+        "seasontype": "21",
+        "seasontypename": "Group stage",
+        "seasontypeunique": "91",
+        "start": {
+          "_doc": "time",
+          "time": "00:00",
+          "date": "11/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1781136000
+        },
+        "end": {
+          "_doc": "time",
+          "time": "23:59",
+          "date": "25/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1782431940
+        },
+        "roundbyround": true,
+        "order": 1000,
+        "set": [
+          {
+            "id": 2,
+            "name": "Total",
+            "headers": [
+              9,
+              1,
+              11,
+              7,
+              12,
+              2,
+              6,
+              5,
+              4,
+              3,
+              8
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Short",
+            "headers": [
+              9,
+              11,
+              7,
+              12,
+              2,
+              6,
+              3,
+              8
+            ]
+          }
+        ],
+        "header": [
+          {
+            "id": 1,
+            "name": "changeTotal",
+            "column": "",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 2,
+            "name": "drawTotal",
+            "column": "D",
+            "tooltip": "Draw",
+            "datapriority": "1"
+          },
+          {
+            "id": 3,
+            "name": "goalDiffTotal",
+            "column": "DIFF",
+            "tooltip": "Goal difference",
+            "datapriority": "1"
+          },
+          {
+            "id": 4,
+            "name": "goalsAgainstTotal",
+            "column": "GA",
+            "tooltip": "Goals against",
+            "datapriority": "4"
+          },
+          {
+            "id": 5,
+            "name": "goalsForTotal",
+            "column": "GF",
+            "tooltip": "Goals for total",
+            "datapriority": "4"
+          },
+          {
+            "id": 6,
+            "name": "lossTotal",
+            "column": "L",
+            "tooltip": "loss",
+            "datapriority": "1"
+          },
+          {
+            "id": 7,
+            "name": "total",
+            "column": "P",
+            "tooltip": "Matches played",
+            "datapriority": "1"
+          },
+          {
+            "id": 8,
+            "name": "pointsTotal",
+            "column": "PTS",
+            "tooltip": "Points",
+            "datapriority": "1"
+          },
+          {
+            "id": 9,
+            "name": "pos",
+            "column": "Pos",
+            "tooltip": "Position",
+            "datapriority": "1"
+          },
+          {
+            "id": 10,
+            "name": "sortPositionTotal",
+            "column": "",
+            "tooltip": "Sort",
+            "datapriority": "1"
+          },
+          {
+            "id": 11,
+            "name": "team",
+            "column": "Team",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 12,
+            "name": "winTotal",
+            "column": "W",
+            "tooltip": "win",
+            "datapriority": "1"
+          }
+        ],
+        "matchtype": [
+          {
+            "_doc": "matchtype",
+            "_id": 1,
+            "settypeid": 2,
+            "column": "All matches"
+          }
+        ],
+        "tabletype": [
+          {
+            "_doc": "tabletype",
+            "_id": 1,
+            "column": "Full Time"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 2,
+            "column": "1st half"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 3,
+            "column": "2nd half"
+          }
+        ]
+      },
+      {
+        "_doc": "statistics_leaguetable",
+        "_id": "81533",
+        "parenttableid": null,
+        "leaguetypeid": null,
+        "parenttableids": {},
+        "seasonid": "101177",
+        "maxrounds": 3,
+        "currentround": 3,
+        "presentationid": 0,
+        "name": "Group B",
+        "abbr": "FIFA World C",
+        "groupname": "B",
+        "tournament": {
+          "_doc": "tournament",
+          "_id": 3955,
+          "_sid": 1,
+          "_rcid": 4,
+          "_isk": 12,
+          "_tid": 3955,
+          "_utid": 16,
+          "_gender": "men",
+          "name": "FIFA World Cup, Group B",
+          "abbr": "WCGB",
+          "livetable": 81533,
+          "friendly": false,
+          "ground": null,
+          "tournamentlevelorder": 7002,
+          "tournamentlevelname": "",
+          "outdated": false,
+          "roundbyround": true,
+          "seasontype": "21",
+          "seasontypename": "Group stage",
+          "seasontypeunique": "91",
+          "groupname": "B",
+          "seasonid": 101177,
+          "currentseason": 101177,
+          "year": "2026"
+        },
+        "realcategory": {
+          "_doc": "realcategory",
+          "_id": 4,
+          "_sid": 1,
+          "_rcid": 4,
+          "name": "International",
+          "cc": null
+        },
+        "rules": {
+          "_doc": "tiebreakrule",
+          "_id": 81533,
+          "name": "In the event that two (or more) teams finish with an equal number of points, the following rules break the tie:\n1. Head-to-head games between the teams concerned\n1a. Points total\n1b. Goal difference\n1c. Goals scored\n2. Overall goal difference\n3. Overall number of goals scored\n4. Disciplinary points\n5. Higher position in FIFA World Ranking"
+        },
+        "totalrows": 4,
+        "tablerows": [
+          {
+            "_doc": "tablerow",
+            "_id": 189846124,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 1
+            },
+            "changeTotal": 1,
+            "drawTotal": 1,
+            "goalDiffTotal": 4,
+            "goalsAgainstTotal": 3,
+            "goalsForTotal": 7,
+            "lossTotal": 0,
+            "total": 3,
+            "pointsTotal": 7,
+            "pos": 1,
+            "sortPositionTotal": 1,
+            "team": {
+              "_doc": "team",
+              "_id": 9539,
+              "_sid": 1,
+              "uid": 4699,
+              "virtual": false,
+              "name": "Switzerland",
+              "mediumname": "Switzerland",
+              "abbr": "SUI",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 206,
+                "a2": "ch",
+                "name": "Switzerland",
+                "a3": "CHE",
+                "ioc": "SUI",
+                "continentid": 1,
+                "continent": "Europe",
+                "population": 7800000
+              }
+            },
+            "winTotal": 2
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189846126,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 2
+            },
+            "changeTotal": -1,
+            "drawTotal": 1,
+            "goalDiffTotal": 5,
+            "goalsAgainstTotal": 3,
+            "goalsForTotal": 8,
+            "lossTotal": 1,
+            "total": 3,
+            "pointsTotal": 4,
+            "pos": 2,
+            "sortPositionTotal": 2,
+            "team": {
+              "_doc": "team",
+              "_id": 9738,
+              "_sid": 1,
+              "uid": 4752,
+              "virtual": false,
+              "name": "Canada",
+              "mediumname": "Canada",
+              "abbr": "CAN",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 38,
+                "a2": "ca",
+                "name": "Canada",
+                "a3": "CAN",
+                "ioc": "CAN",
+                "continentid": 2,
+                "continent": "North America",
+                "population": 36503000
+              }
+            },
+            "winTotal": 1
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189846130,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 3
+            },
+            "changeTotal": 0,
+            "drawTotal": 1,
+            "goalDiffTotal": -1,
+            "goalsAgainstTotal": 6,
+            "goalsForTotal": 5,
+            "lossTotal": 1,
+            "total": 3,
+            "pointsTotal": 4,
+            "pos": 3,
+            "sortPositionTotal": 3,
+            "team": {
+              "_doc": "team",
+              "_id": 10025,
+              "_sid": 1,
+              "uid": 4479,
+              "virtual": false,
+              "name": "Bosnia and Herzegovina",
+              "mediumname": "Bosnia and Herzegovina",
+              "abbr": "BIH",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 27,
+                "a2": "ba",
+                "name": "Bosnia & Herzegovina",
+                "a3": "BIH",
+                "ioc": "BIH",
+                "continentid": 1,
+                "continent": "Europe",
+                "population": 3531000
+              }
+            },
+            "winTotal": 1
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189846128,
+            "changeTotal": 0,
+            "drawTotal": 1,
+            "goalDiffTotal": -8,
+            "goalsAgainstTotal": 10,
+            "goalsForTotal": 2,
+            "lossTotal": 2,
+            "total": 3,
+            "pointsTotal": 1,
+            "pos": 4,
+            "sortPositionTotal": 4,
+            "team": {
+              "_doc": "team",
+              "_id": 43334,
+              "_sid": 1,
+              "uid": 4792,
+              "virtual": false,
+              "name": "Qatar",
+              "mediumname": "Qatar",
+              "abbr": "QAT",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 174,
+                "a2": "qa",
+                "name": "Qatar",
+                "a3": "QAT",
+                "ioc": "QAT",
+                "continentid": 5,
+                "continent": "Asia",
+                "population": 2700000
+              }
+            },
+            "winTotal": 0
+          }
+        ],
+        "tournamentid": 3955,
+        "seasontype": "21",
+        "seasontypename": "Group stage",
+        "seasontypeunique": "91",
+        "start": {
+          "_doc": "time",
+          "time": "00:00",
+          "date": "12/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1781222400
+        },
+        "end": {
+          "_doc": "time",
+          "time": "23:59",
+          "date": "24/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1782345540
+        },
+        "roundbyround": true,
+        "order": 1000,
+        "set": [
+          {
+            "id": 2,
+            "name": "Total",
+            "headers": [
+              9,
+              1,
+              11,
+              7,
+              12,
+              2,
+              6,
+              5,
+              4,
+              3,
+              8
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Short",
+            "headers": [
+              9,
+              11,
+              7,
+              12,
+              2,
+              6,
+              3,
+              8
+            ]
+          }
+        ],
+        "header": [
+          {
+            "id": 1,
+            "name": "changeTotal",
+            "column": "",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 2,
+            "name": "drawTotal",
+            "column": "D",
+            "tooltip": "Draw",
+            "datapriority": "1"
+          },
+          {
+            "id": 3,
+            "name": "goalDiffTotal",
+            "column": "DIFF",
+            "tooltip": "Goal difference",
+            "datapriority": "1"
+          },
+          {
+            "id": 4,
+            "name": "goalsAgainstTotal",
+            "column": "GA",
+            "tooltip": "Goals against",
+            "datapriority": "4"
+          },
+          {
+            "id": 5,
+            "name": "goalsForTotal",
+            "column": "GF",
+            "tooltip": "Goals for total",
+            "datapriority": "4"
+          },
+          {
+            "id": 6,
+            "name": "lossTotal",
+            "column": "L",
+            "tooltip": "loss",
+            "datapriority": "1"
+          },
+          {
+            "id": 7,
+            "name": "total",
+            "column": "P",
+            "tooltip": "Matches played",
+            "datapriority": "1"
+          },
+          {
+            "id": 8,
+            "name": "pointsTotal",
+            "column": "PTS",
+            "tooltip": "Points",
+            "datapriority": "1"
+          },
+          {
+            "id": 9,
+            "name": "pos",
+            "column": "Pos",
+            "tooltip": "Position",
+            "datapriority": "1"
+          },
+          {
+            "id": 10,
+            "name": "sortPositionTotal",
+            "column": "",
+            "tooltip": "Sort",
+            "datapriority": "1"
+          },
+          {
+            "id": 11,
+            "name": "team",
+            "column": "Team",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 12,
+            "name": "winTotal",
+            "column": "W",
+            "tooltip": "win",
+            "datapriority": "1"
+          }
+        ],
+        "matchtype": [
+          {
+            "_doc": "matchtype",
+            "_id": 1,
+            "settypeid": 2,
+            "column": "All matches"
+          }
+        ],
+        "tabletype": [
+          {
+            "_doc": "tabletype",
+            "_id": 1,
+            "column": "Full Time"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 2,
+            "column": "1st half"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 3,
+            "column": "2nd half"
+          }
+        ]
+      },
+      {
+        "_doc": "statistics_leaguetable",
+        "_id": "81535",
+        "parenttableid": null,
+        "leaguetypeid": null,
+        "parenttableids": {},
+        "seasonid": "101177",
+        "maxrounds": 3,
+        "currentround": 3,
+        "presentationid": 0,
+        "name": "Group C",
+        "abbr": "FIFA World C",
+        "groupname": "C",
+        "tournament": {
+          "_doc": "tournament",
+          "_id": 3956,
+          "_sid": 1,
+          "_rcid": 4,
+          "_isk": 13,
+          "_tid": 3956,
+          "_utid": 16,
+          "_gender": "men",
+          "name": "FIFA World Cup, Group C",
+          "abbr": "WCGC",
+          "livetable": 81535,
+          "friendly": false,
+          "ground": null,
+          "tournamentlevelorder": 7002,
+          "tournamentlevelname": "",
+          "outdated": false,
+          "roundbyround": true,
+          "seasontype": "21",
+          "seasontypename": "Group stage",
+          "seasontypeunique": "91",
+          "groupname": "C",
+          "seasonid": 101177,
+          "currentseason": 101177,
+          "year": "2026"
+        },
+        "realcategory": {
+          "_doc": "realcategory",
+          "_id": 4,
+          "_sid": 1,
+          "_rcid": 4,
+          "name": "International",
+          "cc": null
+        },
+        "rules": {
+          "_doc": "tiebreakrule",
+          "_id": 81535,
+          "name": "In the event that two (or more) teams finish with an equal number of points, the following rules break the tie:\r\n1. Goal difference\r\n2. Goals scored\r\n3. Head-to-head games between the teams concerned\r\n3a. Points total\r\n3b. Goal difference\r\n3c. Goals scored\r\n4. Disciplinary Points\r\n5. Drawing of Lots"
+        },
+        "totalrows": 4,
+        "tablerows": [
+          {
+            "_doc": "tablerow",
+            "_id": 189846656,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 1
+            },
+            "changeTotal": 0,
+            "drawTotal": 1,
+            "goalDiffTotal": 6,
+            "goalsAgainstTotal": 1,
+            "goalsForTotal": 7,
+            "lossTotal": 0,
+            "total": 3,
+            "pointsTotal": 7,
+            "pos": 1,
+            "sortPositionTotal": 1,
+            "team": {
+              "_doc": "team",
+              "_id": 9552,
+              "_sid": 1,
+              "uid": 4748,
+              "virtual": false,
+              "name": "Brazil",
+              "mediumname": "Brazil",
+              "abbr": "BRA",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 30,
+                "a2": "br",
+                "name": "Brazil",
+                "a3": "BRA",
+                "ioc": "BRA",
+                "continentid": 3,
+                "continent": "South America",
+                "population": 208360000
+              }
+            },
+            "winTotal": 2
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189846660,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 2
+            },
+            "changeTotal": 0,
+            "drawTotal": 1,
+            "goalDiffTotal": 3,
+            "goalsAgainstTotal": 3,
+            "goalsForTotal": 6,
+            "lossTotal": 0,
+            "total": 3,
+            "pointsTotal": 7,
+            "pos": 2,
+            "sortPositionTotal": 2,
+            "team": {
+              "_doc": "team",
+              "_id": 17960,
+              "_sid": 1,
+              "uid": 4778,
+              "virtual": false,
+              "name": "Morocco",
+              "mediumname": "Morocco",
+              "abbr": "MAR",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 144,
+                "a2": "ma",
+                "name": "Morocco",
+                "a3": "MAR",
+                "ioc": "MAR",
+                "continentid": 4,
+                "continent": "Africa",
+                "population": 35740000
+              }
+            },
+            "winTotal": 2
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189846662,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 3
+            },
+            "changeTotal": 0,
+            "drawTotal": 0,
+            "goalDiffTotal": -3,
+            "goalsAgainstTotal": 4,
+            "goalsForTotal": 1,
+            "lossTotal": 2,
+            "total": 3,
+            "pointsTotal": 3,
+            "pos": 3,
+            "sortPositionTotal": 3,
+            "team": {
+              "_doc": "team",
+              "_id": 9534,
+              "_sid": 1,
+              "uid": 4695,
+              "virtual": false,
+              "name": "Scotland",
+              "mediumname": "Scotland",
+              "abbr": "SCO",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 242,
+                "a2": "s",
+                "name": "Scotland",
+                "a3": "SCO",
+                "ioc": "SCO",
+                "continentid": 1,
+                "continent": "Europe",
+                "population": 5400000
+              }
+            },
+            "winTotal": 1
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189846658,
+            "changeTotal": 0,
+            "drawTotal": 0,
+            "goalDiffTotal": -6,
+            "goalsAgainstTotal": 8,
+            "goalsForTotal": 2,
+            "lossTotal": 3,
+            "total": 3,
+            "pointsTotal": 0,
+            "pos": 4,
+            "sortPositionTotal": 4,
+            "team": {
+              "_doc": "team",
+              "_id": 311474,
+              "_sid": 1,
+              "uid": 7229,
+              "virtual": false,
+              "name": "Haiti",
+              "mediumname": "Haiti",
+              "abbr": "HTI",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 92,
+                "a2": "ht",
+                "name": "Haiti",
+                "a3": "HTI",
+                "ioc": "HAI",
+                "continentid": 2,
+                "continent": "North America",
+                "population": 10847000
+              }
+            },
+            "winTotal": 0
+          }
+        ],
+        "tournamentid": 3956,
+        "seasontype": "21",
+        "seasontypename": "Group stage",
+        "seasontypeunique": "91",
+        "start": {
+          "_doc": "time",
+          "time": "00:00",
+          "date": "13/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1781308800
+        },
+        "end": {
+          "_doc": "time",
+          "time": "23:59",
+          "date": "24/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1782345540
+        },
+        "roundbyround": true,
+        "order": 1000,
+        "set": [
+          {
+            "id": 2,
+            "name": "Total",
+            "headers": [
+              9,
+              1,
+              11,
+              7,
+              12,
+              2,
+              6,
+              5,
+              4,
+              3,
+              8
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Short",
+            "headers": [
+              9,
+              11,
+              7,
+              12,
+              2,
+              6,
+              3,
+              8
+            ]
+          }
+        ],
+        "header": [
+          {
+            "id": 1,
+            "name": "changeTotal",
+            "column": "",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 2,
+            "name": "drawTotal",
+            "column": "D",
+            "tooltip": "Draw",
+            "datapriority": "1"
+          },
+          {
+            "id": 3,
+            "name": "goalDiffTotal",
+            "column": "DIFF",
+            "tooltip": "Goal difference",
+            "datapriority": "1"
+          },
+          {
+            "id": 4,
+            "name": "goalsAgainstTotal",
+            "column": "GA",
+            "tooltip": "Goals against",
+            "datapriority": "4"
+          },
+          {
+            "id": 5,
+            "name": "goalsForTotal",
+            "column": "GF",
+            "tooltip": "Goals for total",
+            "datapriority": "4"
+          },
+          {
+            "id": 6,
+            "name": "lossTotal",
+            "column": "L",
+            "tooltip": "loss",
+            "datapriority": "1"
+          },
+          {
+            "id": 7,
+            "name": "total",
+            "column": "P",
+            "tooltip": "Matches played",
+            "datapriority": "1"
+          },
+          {
+            "id": 8,
+            "name": "pointsTotal",
+            "column": "PTS",
+            "tooltip": "Points",
+            "datapriority": "1"
+          },
+          {
+            "id": 9,
+            "name": "pos",
+            "column": "Pos",
+            "tooltip": "Position",
+            "datapriority": "1"
+          },
+          {
+            "id": 10,
+            "name": "sortPositionTotal",
+            "column": "",
+            "tooltip": "Sort",
+            "datapriority": "1"
+          },
+          {
+            "id": 11,
+            "name": "team",
+            "column": "Team",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 12,
+            "name": "winTotal",
+            "column": "W",
+            "tooltip": "win",
+            "datapriority": "1"
+          }
+        ],
+        "matchtype": [
+          {
+            "_doc": "matchtype",
+            "_id": 1,
+            "settypeid": 2,
+            "column": "All matches"
+          }
+        ],
+        "tabletype": [
+          {
+            "_doc": "tabletype",
+            "_id": 1,
+            "column": "Full Time"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 2,
+            "column": "1st half"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 3,
+            "column": "2nd half"
+          }
+        ]
+      },
+      {
+        "_doc": "statistics_leaguetable",
+        "_id": "81537",
+        "parenttableid": null,
+        "leaguetypeid": null,
+        "parenttableids": {},
+        "seasonid": "101177",
+        "maxrounds": 3,
+        "currentround": 2,
+        "presentationid": 0,
+        "name": "Group D",
+        "abbr": "FIFA World C",
+        "groupname": "D",
+        "tournament": {
+          "_doc": "tournament",
+          "_id": 3957,
+          "_sid": 1,
+          "_rcid": 4,
+          "_isk": 14,
+          "_tid": 3957,
+          "_utid": 16,
+          "_gender": "men",
+          "name": "FIFA World Cup, Group D",
+          "abbr": "WCGD",
+          "livetable": 81537,
+          "friendly": false,
+          "ground": null,
+          "tournamentlevelorder": 7002,
+          "tournamentlevelname": "",
+          "outdated": false,
+          "roundbyround": true,
+          "seasontype": "21",
+          "seasontypename": "Group stage",
+          "seasontypeunique": "91",
+          "groupname": "D",
+          "seasonid": 101177,
+          "currentseason": 101177,
+          "year": "2026"
+        },
+        "realcategory": {
+          "_doc": "realcategory",
+          "_id": 4,
+          "_sid": 1,
+          "_rcid": 4,
+          "name": "International",
+          "cc": null
+        },
+        "rules": {
+          "_doc": "tiebreakrule",
+          "_id": 81537,
+          "name": "In the event that two (or more) teams finish with an equal number of points, the following rules break the tie:\r\n1. Goal difference\r\n2. Goals scored\r\n3. Head-to-head games between the teams concerned\r\n3a. Points total\r\n3b. Goal difference\r\n3c. Goals scored\r\n4. Disciplinary Points\r\n5. Drawing of Lots"
+        },
+        "totalrows": 4,
+        "tablerows": [
+          {
+            "_doc": "tablerow",
+            "_id": 189801286,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 1
+            },
+            "changeTotal": 0,
+            "drawTotal": 0,
+            "goalDiffTotal": 5,
+            "goalsAgainstTotal": 1,
+            "goalsForTotal": 6,
+            "lossTotal": 0,
+            "total": 2,
+            "pointsTotal": 6,
+            "pos": 1,
+            "sortPositionTotal": 1,
+            "team": {
+              "_doc": "team",
+              "_id": 10098,
+              "_sid": 1,
+              "uid": 4724,
+              "virtual": false,
+              "name": "USA",
+              "mediumname": "USA",
+              "abbr": "USA",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 226,
+                "a2": "us",
+                "name": "USA",
+                "a3": "USA",
+                "ioc": "USA",
+                "continentid": 2,
+                "continent": "North America",
+                "population": 320000000
+              }
+            },
+            "winTotal": 2
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189801292,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 2
+            },
+            "changeTotal": 0,
+            "drawTotal": 0,
+            "goalDiffTotal": 0,
+            "goalsAgainstTotal": 2,
+            "goalsForTotal": 2,
+            "lossTotal": 1,
+            "total": 2,
+            "pointsTotal": 3,
+            "pos": 2,
+            "sortPositionTotal": 2,
+            "team": {
+              "_doc": "team",
+              "_id": 72917,
+              "_sid": 1,
+              "uid": 4741,
+              "virtual": false,
+              "name": "Australia",
+              "mediumname": "Australia",
+              "abbr": "AUS",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 13,
+                "a2": "au",
+                "name": "Australia",
+                "a3": "AUS",
+                "ioc": "AUS",
+                "continentid": 6,
+                "continent": "Oceania",
+                "population": 23900000
+              }
+            },
+            "winTotal": 1
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189801288,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 3
+            },
+            "changeTotal": 1,
+            "drawTotal": 0,
+            "goalDiffTotal": -2,
+            "goalsAgainstTotal": 4,
+            "goalsForTotal": 2,
+            "lossTotal": 1,
+            "total": 2,
+            "pointsTotal": 3,
+            "pos": 3,
+            "sortPositionTotal": 3,
+            "team": {
+              "_doc": "team",
+              "_id": 9548,
+              "_sid": 1,
+              "uid": 4789,
+              "virtual": false,
+              "name": "Paraguay",
+              "mediumname": "Paraguay",
+              "abbr": "PAR",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 167,
+                "a2": "py",
+                "name": "Paraguay",
+                "a3": "PRY",
+                "ioc": "PAR",
+                "continentid": 3,
+                "continent": "South America",
+                "population": 6300000
+              }
+            },
+            "winTotal": 1
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189801290,
+            "changeTotal": -1,
+            "drawTotal": 0,
+            "goalDiffTotal": -3,
+            "goalsAgainstTotal": 3,
+            "goalsForTotal": 0,
+            "lossTotal": 2,
+            "total": 2,
+            "pointsTotal": 0,
+            "pos": 4,
+            "sortPositionTotal": 4,
+            "team": {
+              "_doc": "team",
+              "_id": 9538,
+              "_sid": 1,
+              "uid": 4700,
+              "virtual": false,
+              "name": "Turkiye",
+              "mediumname": "Turkiye",
+              "abbr": "TUR",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 218,
+                "a2": "tr",
+                "name": "Turkiye",
+                "a3": "TUR",
+                "ioc": "TUR",
+                "continentid": 1,
+                "continent": "Europe",
+                "population": 82835000
+              }
+            },
+            "winTotal": 0
+          }
+        ],
+        "tournamentid": 3957,
+        "seasontype": "21",
+        "seasontypename": "Group stage",
+        "seasontypeunique": "91",
+        "start": {
+          "_doc": "time",
+          "time": "00:00",
+          "date": "13/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1781308800
+        },
+        "end": {
+          "_doc": "time",
+          "time": "23:59",
+          "date": "26/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1782518340
+        },
+        "roundbyround": true,
+        "order": 1000,
+        "set": [
+          {
+            "id": 2,
+            "name": "Total",
+            "headers": [
+              9,
+              1,
+              11,
+              7,
+              12,
+              2,
+              6,
+              5,
+              4,
+              3,
+              8
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Short",
+            "headers": [
+              9,
+              11,
+              7,
+              12,
+              2,
+              6,
+              3,
+              8
+            ]
+          }
+        ],
+        "header": [
+          {
+            "id": 1,
+            "name": "changeTotal",
+            "column": "",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 2,
+            "name": "drawTotal",
+            "column": "D",
+            "tooltip": "Draw",
+            "datapriority": "1"
+          },
+          {
+            "id": 3,
+            "name": "goalDiffTotal",
+            "column": "DIFF",
+            "tooltip": "Goal difference",
+            "datapriority": "1"
+          },
+          {
+            "id": 4,
+            "name": "goalsAgainstTotal",
+            "column": "GA",
+            "tooltip": "Goals against",
+            "datapriority": "4"
+          },
+          {
+            "id": 5,
+            "name": "goalsForTotal",
+            "column": "GF",
+            "tooltip": "Goals for total",
+            "datapriority": "4"
+          },
+          {
+            "id": 6,
+            "name": "lossTotal",
+            "column": "L",
+            "tooltip": "loss",
+            "datapriority": "1"
+          },
+          {
+            "id": 7,
+            "name": "total",
+            "column": "P",
+            "tooltip": "Matches played",
+            "datapriority": "1"
+          },
+          {
+            "id": 8,
+            "name": "pointsTotal",
+            "column": "PTS",
+            "tooltip": "Points",
+            "datapriority": "1"
+          },
+          {
+            "id": 9,
+            "name": "pos",
+            "column": "Pos",
+            "tooltip": "Position",
+            "datapriority": "1"
+          },
+          {
+            "id": 10,
+            "name": "sortPositionTotal",
+            "column": "",
+            "tooltip": "Sort",
+            "datapriority": "1"
+          },
+          {
+            "id": 11,
+            "name": "team",
+            "column": "Team",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 12,
+            "name": "winTotal",
+            "column": "W",
+            "tooltip": "win",
+            "datapriority": "1"
+          }
+        ],
+        "matchtype": [
+          {
+            "_doc": "matchtype",
+            "_id": 1,
+            "settypeid": 2,
+            "column": "All matches"
+          }
+        ],
+        "tabletype": [
+          {
+            "_doc": "tabletype",
+            "_id": 1,
+            "column": "Full Time"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 2,
+            "column": "1st half"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 3,
+            "column": "2nd half"
+          }
+        ]
+      },
+      {
+        "_doc": "statistics_leaguetable",
+        "_id": "81539",
+        "parenttableid": null,
+        "leaguetypeid": null,
+        "parenttableids": {},
+        "seasonid": "101177",
+        "maxrounds": 3,
+        "currentround": 2,
+        "presentationid": 0,
+        "name": "Group E",
+        "abbr": "FIFA World C",
+        "groupname": "E",
+        "tournament": {
+          "_doc": "tournament",
+          "_id": 3958,
+          "_sid": 1,
+          "_rcid": 4,
+          "_isk": 15,
+          "_tid": 3958,
+          "_utid": 16,
+          "_gender": "men",
+          "name": "FIFA World Cup, Group E",
+          "abbr": "WCGE",
+          "livetable": 81539,
+          "friendly": false,
+          "ground": null,
+          "tournamentlevelorder": 7002,
+          "tournamentlevelname": "",
+          "outdated": false,
+          "roundbyround": true,
+          "seasontype": "21",
+          "seasontypename": "Group stage",
+          "seasontypeunique": "91",
+          "groupname": "E",
+          "seasonid": 101177,
+          "currentseason": 101177,
+          "year": "2026"
+        },
+        "realcategory": {
+          "_doc": "realcategory",
+          "_id": 4,
+          "_sid": 1,
+          "_rcid": 4,
+          "name": "International",
+          "cc": null
+        },
+        "rules": {
+          "_doc": "tiebreakrule",
+          "_id": 81539,
+          "name": "In the event that two (or more) teams finish with an equal number of points, the following rules break the tie:\r\n1. Goal difference\r\n2. Goals scored\r\n3. Head-to-head games between the teams concerned\r\n3a. Points total\r\n3b. Goal difference\r\n3c. Goals scored\r\n4. Disciplinary Points\r\n5. Drawing of Lots"
+        },
+        "totalrows": 4,
+        "tablerows": [
+          {
+            "_doc": "tablerow",
+            "_id": 189815938,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 1
+            },
+            "changeTotal": 0,
+            "drawTotal": 0,
+            "goalDiffTotal": 7,
+            "goalsAgainstTotal": 2,
+            "goalsForTotal": 9,
+            "lossTotal": 0,
+            "total": 2,
+            "pointsTotal": 6,
+            "pos": 1,
+            "sortPositionTotal": 1,
+            "team": {
+              "_doc": "team",
+              "_id": 6171,
+              "_sid": 1,
+              "uid": 4711,
+              "virtual": false,
+              "name": "Germany",
+              "mediumname": "Germany",
+              "abbr": "GER",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 80,
+                "a2": "de",
+                "name": "Germany",
+                "a3": "DEU",
+                "ioc": "GER",
+                "continentid": 1,
+                "continent": "Europe",
+                "population": 82500000
+              }
+            },
+            "winTotal": 2
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189815942,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 2
+            },
+            "changeTotal": 0,
+            "drawTotal": 0,
+            "goalDiffTotal": 0,
+            "goalsAgainstTotal": 2,
+            "goalsForTotal": 2,
+            "lossTotal": 1,
+            "total": 2,
+            "pointsTotal": 3,
+            "pos": 2,
+            "sortPositionTotal": 2,
+            "team": {
+              "_doc": "team",
+              "_id": 18000,
+              "_sid": 1,
+              "uid": 4768,
+              "virtual": false,
+              "name": "Ivory Coast",
+              "mediumname": "Ivory Coast",
+              "abbr": "CIV",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 53,
+                "a2": "ci",
+                "name": "Cote d’Ivoire",
+                "a3": "CIV",
+                "ioc": "CIV",
+                "continentid": 4,
+                "continent": "Africa",
+                "population": 21100000
+              }
+            },
+            "winTotal": 1
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189815940,
+            "changeTotal": 0,
+            "drawTotal": 1,
+            "goalDiffTotal": -1,
+            "goalsAgainstTotal": 1,
+            "goalsForTotal": 0,
+            "lossTotal": 1,
+            "total": 2,
+            "pointsTotal": 1,
+            "pos": 3,
+            "sortPositionTotal": 3,
+            "team": {
+              "_doc": "team",
+              "_id": 9549,
+              "_sid": 1,
+              "uid": 4757,
+              "virtual": false,
+              "name": "Ecuador",
+              "mediumname": "Ecuador",
+              "abbr": "ECU",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 62,
+                "a2": "ec",
+                "name": "Ecuador",
+                "a3": "ECU",
+                "ioc": "ECU",
+                "continentid": 3,
+                "continent": "South America",
+                "population": 16385000
+              }
+            },
+            "winTotal": 0
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189815936,
+            "changeTotal": 0,
+            "drawTotal": 1,
+            "goalDiffTotal": -6,
+            "goalsAgainstTotal": 7,
+            "goalsForTotal": 1,
+            "lossTotal": 1,
+            "total": 2,
+            "pointsTotal": 1,
+            "pos": 4,
+            "sortPositionTotal": 4,
+            "team": {
+              "_doc": "team",
+              "_id": 5838998,
+              "_sid": 1,
+              "uid": 55827,
+              "virtual": false,
+              "name": "Curacao",
+              "mediumname": "Curacao",
+              "abbr": "CUW",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 252,
+                "a2": "cw",
+                "name": "Curacao",
+                "a3": "CUW",
+                "ioc": "CW",
+                "continentid": 3,
+                "continent": "South America",
+                "population": 160000
+              }
+            },
+            "winTotal": 0
+          }
+        ],
+        "tournamentid": 3958,
+        "seasontype": "21",
+        "seasontypename": "Group stage",
+        "seasontypeunique": "91",
+        "start": {
+          "_doc": "time",
+          "time": "00:00",
+          "date": "14/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1781395200
+        },
+        "end": {
+          "_doc": "time",
+          "time": "23:59",
+          "date": "25/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1782431940
+        },
+        "roundbyround": true,
+        "order": 1000,
+        "set": [
+          {
+            "id": 2,
+            "name": "Total",
+            "headers": [
+              9,
+              1,
+              11,
+              7,
+              12,
+              2,
+              6,
+              5,
+              4,
+              3,
+              8
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Short",
+            "headers": [
+              9,
+              11,
+              7,
+              12,
+              2,
+              6,
+              3,
+              8
+            ]
+          }
+        ],
+        "header": [
+          {
+            "id": 1,
+            "name": "changeTotal",
+            "column": "",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 2,
+            "name": "drawTotal",
+            "column": "D",
+            "tooltip": "Draw",
+            "datapriority": "1"
+          },
+          {
+            "id": 3,
+            "name": "goalDiffTotal",
+            "column": "DIFF",
+            "tooltip": "Goal difference",
+            "datapriority": "1"
+          },
+          {
+            "id": 4,
+            "name": "goalsAgainstTotal",
+            "column": "GA",
+            "tooltip": "Goals against",
+            "datapriority": "4"
+          },
+          {
+            "id": 5,
+            "name": "goalsForTotal",
+            "column": "GF",
+            "tooltip": "Goals for total",
+            "datapriority": "4"
+          },
+          {
+            "id": 6,
+            "name": "lossTotal",
+            "column": "L",
+            "tooltip": "loss",
+            "datapriority": "1"
+          },
+          {
+            "id": 7,
+            "name": "total",
+            "column": "P",
+            "tooltip": "Matches played",
+            "datapriority": "1"
+          },
+          {
+            "id": 8,
+            "name": "pointsTotal",
+            "column": "PTS",
+            "tooltip": "Points",
+            "datapriority": "1"
+          },
+          {
+            "id": 9,
+            "name": "pos",
+            "column": "Pos",
+            "tooltip": "Position",
+            "datapriority": "1"
+          },
+          {
+            "id": 10,
+            "name": "sortPositionTotal",
+            "column": "",
+            "tooltip": "Sort",
+            "datapriority": "1"
+          },
+          {
+            "id": 11,
+            "name": "team",
+            "column": "Team",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 12,
+            "name": "winTotal",
+            "column": "W",
+            "tooltip": "win",
+            "datapriority": "1"
+          }
+        ],
+        "matchtype": [
+          {
+            "_doc": "matchtype",
+            "_id": 1,
+            "settypeid": 2,
+            "column": "All matches"
+          }
+        ],
+        "tabletype": [
+          {
+            "_doc": "tabletype",
+            "_id": 1,
+            "column": "Full Time"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 2,
+            "column": "1st half"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 3,
+            "column": "2nd half"
+          }
+        ]
+      },
+      {
+        "_doc": "statistics_leaguetable",
+        "_id": "81541",
+        "parenttableid": null,
+        "leaguetypeid": null,
+        "parenttableids": {},
+        "seasonid": "101177",
+        "maxrounds": 3,
+        "currentround": 2,
+        "presentationid": 0,
+        "name": "Group F",
+        "abbr": "FIFA World C",
+        "groupname": "F",
+        "tournament": {
+          "_doc": "tournament",
+          "_id": 3959,
+          "_sid": 1,
+          "_rcid": 4,
+          "_isk": 16,
+          "_tid": 3959,
+          "_utid": 16,
+          "_gender": "men",
+          "name": "FIFA World Cup, Group F",
+          "abbr": "WCGF",
+          "livetable": 81541,
+          "friendly": false,
+          "ground": null,
+          "tournamentlevelorder": 7002,
+          "tournamentlevelname": "",
+          "outdated": false,
+          "roundbyround": true,
+          "seasontype": "21",
+          "seasontypename": "Group stage",
+          "seasontypeunique": "91",
+          "groupname": "F",
+          "seasonid": 101177,
+          "currentseason": 101177,
+          "year": "2026"
+        },
+        "realcategory": {
+          "_doc": "realcategory",
+          "_id": 4,
+          "_sid": 1,
+          "_rcid": 4,
+          "name": "International",
+          "cc": null
+        },
+        "rules": {
+          "_doc": "tiebreakrule",
+          "_id": 81541,
+          "name": "In the event that two (or more) teams finish with an equal number of points, the following rules break the tie:\r\n1. Goal difference\r\n2. Goals scored\r\n3. Head-to-head games between the teams concerned\r\n3a. Points total\r\n3b. Goal difference\r\n3c. Goals scored\r\n4. Disciplinary Points\r\n5. Drawing of Lots"
+        },
+        "totalrows": 4,
+        "tablerows": [
+          {
+            "_doc": "tablerow",
+            "_id": 189811906,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 1
+            },
+            "changeTotal": 1,
+            "drawTotal": 1,
+            "goalDiffTotal": 4,
+            "goalsAgainstTotal": 3,
+            "goalsForTotal": 7,
+            "lossTotal": 0,
+            "total": 2,
+            "pointsTotal": 4,
+            "pos": 1,
+            "sortPositionTotal": 1,
+            "team": {
+              "_doc": "team",
+              "_id": 9597,
+              "_sid": 1,
+              "uid": 4705,
+              "virtual": false,
+              "name": "Netherlands",
+              "mediumname": "Netherlands",
+              "abbr": "NED",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 150,
+                "a2": "nl",
+                "name": "Netherlands",
+                "a3": "NLD",
+                "ioc": "NED",
+                "continentid": 1,
+                "continent": "Europe",
+                "population": 16600000
+              }
+            },
+            "winTotal": 1
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189811904,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 2
+            },
+            "changeTotal": 0,
+            "drawTotal": 1,
+            "goalDiffTotal": 4,
+            "goalsAgainstTotal": 2,
+            "goalsForTotal": 6,
+            "lossTotal": 0,
+            "total": 2,
+            "pointsTotal": 4,
+            "pos": 2,
+            "sortPositionTotal": 2,
+            "team": {
+              "_doc": "team",
+              "_id": 77730,
+              "_sid": 1,
+              "uid": 4770,
+              "virtual": false,
+              "name": "Japan",
+              "mediumname": "Japan",
+              "abbr": "JPN",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 107,
+                "a2": "jp",
+                "name": "Japan",
+                "a3": "JPN",
+                "ioc": "JPN",
+                "continentid": 5,
+                "continent": "Asia",
+                "population": 127400000
+              }
+            },
+            "winTotal": 1
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189811900,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 3
+            },
+            "changeTotal": -2,
+            "drawTotal": 0,
+            "goalDiffTotal": 0,
+            "goalsAgainstTotal": 6,
+            "goalsForTotal": 6,
+            "lossTotal": 1,
+            "total": 2,
+            "pointsTotal": 3,
+            "pos": 3,
+            "sortPositionTotal": 3,
+            "team": {
+              "_doc": "team",
+              "_id": 9537,
+              "_sid": 1,
+              "uid": 4688,
+              "virtual": false,
+              "name": "Sweden",
+              "mediumname": "Sweden",
+              "abbr": "SWE",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 205,
+                "a2": "se",
+                "name": "Sweden",
+                "a3": "SWE",
+                "ioc": "SWE",
+                "continentid": 1,
+                "continent": "Europe",
+                "population": 9415295
+              }
+            },
+            "winTotal": 1
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189811902,
+            "changeTotal": 0,
+            "drawTotal": 0,
+            "goalDiffTotal": -8,
+            "goalsAgainstTotal": 9,
+            "goalsForTotal": 1,
+            "lossTotal": 2,
+            "total": 2,
+            "pointsTotal": 0,
+            "pos": 4,
+            "sortPositionTotal": 4,
+            "team": {
+              "_doc": "team",
+              "_id": 17956,
+              "_sid": 1,
+              "uid": 4729,
+              "virtual": false,
+              "name": "Tunisia",
+              "mediumname": "Tunisia",
+              "abbr": "TUN",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 217,
+                "a2": "tn",
+                "name": "Tunisia",
+                "a3": "TUN",
+                "ioc": "TUN",
+                "continentid": 4,
+                "continent": "Africa",
+                "population": 11299000
+              }
+            },
+            "winTotal": 0
+          }
+        ],
+        "tournamentid": 3959,
+        "seasontype": "21",
+        "seasontypename": "Group stage",
+        "seasontypeunique": "91",
+        "start": {
+          "_doc": "time",
+          "time": "00:00",
+          "date": "14/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1781395200
+        },
+        "end": {
+          "_doc": "time",
+          "time": "23:59",
+          "date": "25/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1782431940
+        },
+        "roundbyround": true,
+        "order": 1000,
+        "set": [
+          {
+            "id": 2,
+            "name": "Total",
+            "headers": [
+              9,
+              1,
+              11,
+              7,
+              12,
+              2,
+              6,
+              5,
+              4,
+              3,
+              8
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Short",
+            "headers": [
+              9,
+              11,
+              7,
+              12,
+              2,
+              6,
+              3,
+              8
+            ]
+          }
+        ],
+        "header": [
+          {
+            "id": 1,
+            "name": "changeTotal",
+            "column": "",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 2,
+            "name": "drawTotal",
+            "column": "D",
+            "tooltip": "Draw",
+            "datapriority": "1"
+          },
+          {
+            "id": 3,
+            "name": "goalDiffTotal",
+            "column": "DIFF",
+            "tooltip": "Goal difference",
+            "datapriority": "1"
+          },
+          {
+            "id": 4,
+            "name": "goalsAgainstTotal",
+            "column": "GA",
+            "tooltip": "Goals against",
+            "datapriority": "4"
+          },
+          {
+            "id": 5,
+            "name": "goalsForTotal",
+            "column": "GF",
+            "tooltip": "Goals for total",
+            "datapriority": "4"
+          },
+          {
+            "id": 6,
+            "name": "lossTotal",
+            "column": "L",
+            "tooltip": "loss",
+            "datapriority": "1"
+          },
+          {
+            "id": 7,
+            "name": "total",
+            "column": "P",
+            "tooltip": "Matches played",
+            "datapriority": "1"
+          },
+          {
+            "id": 8,
+            "name": "pointsTotal",
+            "column": "PTS",
+            "tooltip": "Points",
+            "datapriority": "1"
+          },
+          {
+            "id": 9,
+            "name": "pos",
+            "column": "Pos",
+            "tooltip": "Position",
+            "datapriority": "1"
+          },
+          {
+            "id": 10,
+            "name": "sortPositionTotal",
+            "column": "",
+            "tooltip": "Sort",
+            "datapriority": "1"
+          },
+          {
+            "id": 11,
+            "name": "team",
+            "column": "Team",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 12,
+            "name": "winTotal",
+            "column": "W",
+            "tooltip": "win",
+            "datapriority": "1"
+          }
+        ],
+        "matchtype": [
+          {
+            "_doc": "matchtype",
+            "_id": 1,
+            "settypeid": 2,
+            "column": "All matches"
+          }
+        ],
+        "tabletype": [
+          {
+            "_doc": "tabletype",
+            "_id": 1,
+            "column": "Full Time"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 2,
+            "column": "1st half"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 3,
+            "column": "2nd half"
+          }
+        ]
+      },
+      {
+        "_doc": "statistics_leaguetable",
+        "_id": "81543",
+        "parenttableid": null,
+        "leaguetypeid": null,
+        "parenttableids": {},
+        "seasonid": "101177",
+        "maxrounds": 3,
+        "currentround": 2,
+        "presentationid": 0,
+        "name": "Group G",
+        "abbr": "FIFA World C",
+        "groupname": "G",
+        "tournament": {
+          "_doc": "tournament",
+          "_id": 3960,
+          "_sid": 1,
+          "_rcid": 4,
+          "_isk": 17,
+          "_tid": 3960,
+          "_utid": 16,
+          "_gender": "men",
+          "name": "FIFA World Cup, Group G",
+          "abbr": "WCGG",
+          "livetable": 81543,
+          "friendly": false,
+          "ground": null,
+          "tournamentlevelorder": 7002,
+          "tournamentlevelname": "",
+          "outdated": false,
+          "roundbyround": true,
+          "seasontype": "21",
+          "seasontypename": "Group stage",
+          "seasontypeunique": "91",
+          "groupname": "G",
+          "seasonid": 101177,
+          "currentseason": 101177,
+          "year": "2026"
+        },
+        "realcategory": {
+          "_doc": "realcategory",
+          "_id": 4,
+          "_sid": 1,
+          "_rcid": 4,
+          "name": "International",
+          "cc": null
+        },
+        "rules": {
+          "_doc": "tiebreakrule",
+          "_id": 81543,
+          "name": "In the event that two (or more) teams finish with an equal number of points, the following rules break the tie:\r\n1. Goal difference\r\n2. Goals scored\r\n3. Head-to-head games between the teams concerned\r\n3a. Points total\r\n3b. Goal difference\r\n3c. Goals scored\r\n4. Disciplinary Points\r\n5. Drawing of Lots"
+        },
+        "totalrows": 4,
+        "tablerows": [
+          {
+            "_doc": "tablerow",
+            "_id": 189827500,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 1
+            },
+            "changeTotal": 2,
+            "drawTotal": 1,
+            "goalDiffTotal": 2,
+            "goalsAgainstTotal": 2,
+            "goalsForTotal": 4,
+            "lossTotal": 0,
+            "total": 2,
+            "pointsTotal": 4,
+            "pos": 1,
+            "sortPositionTotal": 1,
+            "team": {
+              "_doc": "team",
+              "_id": 17959,
+              "_sid": 1,
+              "uid": 4758,
+              "virtual": false,
+              "name": "Egypt",
+              "mediumname": "Egypt",
+              "abbr": "EGY",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 63,
+                "a2": "eg",
+                "name": "Egypt",
+                "a3": "EGY",
+                "ioc": "EGY",
+                "continentid": 4,
+                "continent": "Africa",
+                "population": 94666000
+              }
+            },
+            "winTotal": 1
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189827498,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 2
+            },
+            "changeTotal": -1,
+            "drawTotal": 2,
+            "goalDiffTotal": 0,
+            "goalsAgainstTotal": 2,
+            "goalsForTotal": 2,
+            "lossTotal": 0,
+            "total": 2,
+            "pointsTotal": 2,
+            "pos": 2,
+            "sortPositionTotal": 2,
+            "team": {
+              "_doc": "team",
+              "_id": 67358,
+              "_sid": 1,
+              "uid": 4766,
+              "virtual": false,
+              "name": "Iran",
+              "mediumname": "IR Iran",
+              "abbr": "IRN",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 101,
+                "a2": "ir",
+                "name": "Iran",
+                "a3": "IRN",
+                "ioc": "IRI",
+                "continentid": 5,
+                "continent": "Asia",
+                "population": 81000000
+              }
+            },
+            "winTotal": 0
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189827494,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 3
+            },
+            "changeTotal": 0,
+            "drawTotal": 2,
+            "goalDiffTotal": 0,
+            "goalsAgainstTotal": 1,
+            "goalsForTotal": 1,
+            "lossTotal": 0,
+            "total": 2,
+            "pointsTotal": 2,
+            "pos": 3,
+            "sortPositionTotal": 3,
+            "team": {
+              "_doc": "team",
+              "_id": 9516,
+              "_sid": 1,
+              "uid": 4717,
+              "virtual": false,
+              "name": "Belgium",
+              "mediumname": "Belgium",
+              "abbr": "BEL",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 21,
+                "a2": "be",
+                "name": "Belgium",
+                "a3": "BEL",
+                "ioc": "BEL",
+                "continentid": 1,
+                "continent": "Europe",
+                "population": 11322000
+              }
+            },
+            "winTotal": 0
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189827496,
+            "changeTotal": -3,
+            "drawTotal": 1,
+            "goalDiffTotal": -2,
+            "goalsAgainstTotal": 5,
+            "goalsForTotal": 3,
+            "lossTotal": 1,
+            "total": 2,
+            "pointsTotal": 1,
+            "pos": 4,
+            "sortPositionTotal": 4,
+            "team": {
+              "_doc": "team",
+              "_id": 31226,
+              "_sid": 1,
+              "uid": 4784,
+              "virtual": false,
+              "name": "New Zealand",
+              "mediumname": "New Zealand",
+              "abbr": "NZL",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 153,
+                "a2": "nz",
+                "name": "New Zealand",
+                "a3": "NZL",
+                "ioc": "NZL",
+                "continentid": 6,
+                "continent": "Oceania",
+                "population": 4400000
+              }
+            },
+            "winTotal": 0
+          }
+        ],
+        "tournamentid": 3960,
+        "seasontype": "21",
+        "seasontypename": "Group stage",
+        "seasontypeunique": "91",
+        "start": {
+          "_doc": "time",
+          "time": "00:00",
+          "date": "15/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1781481600
+        },
+        "end": {
+          "_doc": "time",
+          "time": "23:59",
+          "date": "27/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1782604740
+        },
+        "roundbyround": true,
+        "order": 1000,
+        "set": [
+          {
+            "id": 2,
+            "name": "Total",
+            "headers": [
+              9,
+              1,
+              11,
+              7,
+              12,
+              2,
+              6,
+              5,
+              4,
+              3,
+              8
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Short",
+            "headers": [
+              9,
+              11,
+              7,
+              12,
+              2,
+              6,
+              3,
+              8
+            ]
+          }
+        ],
+        "header": [
+          {
+            "id": 1,
+            "name": "changeTotal",
+            "column": "",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 2,
+            "name": "drawTotal",
+            "column": "D",
+            "tooltip": "Draw",
+            "datapriority": "1"
+          },
+          {
+            "id": 3,
+            "name": "goalDiffTotal",
+            "column": "DIFF",
+            "tooltip": "Goal difference",
+            "datapriority": "1"
+          },
+          {
+            "id": 4,
+            "name": "goalsAgainstTotal",
+            "column": "GA",
+            "tooltip": "Goals against",
+            "datapriority": "4"
+          },
+          {
+            "id": 5,
+            "name": "goalsForTotal",
+            "column": "GF",
+            "tooltip": "Goals for total",
+            "datapriority": "4"
+          },
+          {
+            "id": 6,
+            "name": "lossTotal",
+            "column": "L",
+            "tooltip": "loss",
+            "datapriority": "1"
+          },
+          {
+            "id": 7,
+            "name": "total",
+            "column": "P",
+            "tooltip": "Matches played",
+            "datapriority": "1"
+          },
+          {
+            "id": 8,
+            "name": "pointsTotal",
+            "column": "PTS",
+            "tooltip": "Points",
+            "datapriority": "1"
+          },
+          {
+            "id": 9,
+            "name": "pos",
+            "column": "Pos",
+            "tooltip": "Position",
+            "datapriority": "1"
+          },
+          {
+            "id": 10,
+            "name": "sortPositionTotal",
+            "column": "",
+            "tooltip": "Sort",
+            "datapriority": "1"
+          },
+          {
+            "id": 11,
+            "name": "team",
+            "column": "Team",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 12,
+            "name": "winTotal",
+            "column": "W",
+            "tooltip": "win",
+            "datapriority": "1"
+          }
+        ],
+        "matchtype": [
+          {
+            "_doc": "matchtype",
+            "_id": 1,
+            "settypeid": 2,
+            "column": "All matches"
+          }
+        ],
+        "tabletype": [
+          {
+            "_doc": "tabletype",
+            "_id": 1,
+            "column": "Full Time"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 2,
+            "column": "1st half"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 3,
+            "column": "2nd half"
+          }
+        ]
+      },
+      {
+        "_doc": "statistics_leaguetable",
+        "_id": "81545",
+        "parenttableid": null,
+        "leaguetypeid": null,
+        "parenttableids": {},
+        "seasonid": "101177",
+        "maxrounds": 3,
+        "currentround": 2,
+        "presentationid": 0,
+        "name": "Group H",
+        "abbr": "FIFA World C",
+        "groupname": "H",
+        "tournament": {
+          "_doc": "tournament",
+          "_id": 3961,
+          "_sid": 1,
+          "_rcid": 4,
+          "_isk": 18,
+          "_tid": 3961,
+          "_utid": 16,
+          "_gender": "men",
+          "name": "FIFA World Cup, Group H",
+          "abbr": "WCGH",
+          "livetable": 81545,
+          "friendly": false,
+          "ground": null,
+          "tournamentlevelorder": 7002,
+          "tournamentlevelname": "",
+          "outdated": false,
+          "roundbyround": true,
+          "seasontype": "21",
+          "seasontypename": "Group stage",
+          "seasontypeunique": "91",
+          "groupname": "H",
+          "seasonid": 101177,
+          "currentseason": 101177,
+          "year": "2026"
+        },
+        "realcategory": {
+          "_doc": "realcategory",
+          "_id": 4,
+          "_sid": 1,
+          "_rcid": 4,
+          "name": "International",
+          "cc": null
+        },
+        "rules": {
+          "_doc": "tiebreakrule",
+          "_id": 81545,
+          "name": "In the event that two (or more) teams finish with an equal number of points, the following rules break the tie:\r\n1. Goal difference\r\n2. Goals scored\r\n3. Head-to-head games between the teams concerned\r\n3a. Points total\r\n3b. Goal difference\r\n3c. Goals scored\r\n4. Disciplinary Points\r\n5. Drawing of Lots"
+        },
+        "totalrows": 4,
+        "tablerows": [
+          {
+            "_doc": "tablerow",
+            "_id": 189824416,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 1
+            },
+            "changeTotal": 2,
+            "drawTotal": 1,
+            "goalDiffTotal": 4,
+            "goalsAgainstTotal": 0,
+            "goalsForTotal": 4,
+            "lossTotal": 0,
+            "total": 2,
+            "pointsTotal": 4,
+            "pos": 1,
+            "sortPositionTotal": 1,
+            "team": {
+              "_doc": "team",
+              "_id": 9535,
+              "_sid": 1,
+              "uid": 4698,
+              "virtual": false,
+              "name": "Spain",
+              "mediumname": "Spain",
+              "abbr": "ESP",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 199,
+                "a2": "es",
+                "name": "Spain",
+                "a3": "ESP",
+                "ioc": "ESP",
+                "continentid": 1,
+                "continent": "Europe",
+                "population": 46000000
+              }
+            },
+            "winTotal": 1
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189824412,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 2
+            },
+            "changeTotal": -1,
+            "drawTotal": 2,
+            "goalDiffTotal": 0,
+            "goalsAgainstTotal": 3,
+            "goalsForTotal": 3,
+            "lossTotal": 0,
+            "total": 2,
+            "pointsTotal": 2,
+            "pos": 2,
+            "sortPositionTotal": 2,
+            "team": {
+              "_doc": "team",
+              "_id": 9554,
+              "_sid": 1,
+              "uid": 4725,
+              "virtual": false,
+              "name": "Uruguay",
+              "mediumname": "Uruguay",
+              "abbr": "URU",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 228,
+                "a2": "uy",
+                "name": "Uruguay",
+                "a3": "URY",
+                "ioc": "URU",
+                "continentid": 3,
+                "continent": "South America",
+                "population": 3300000
+              }
+            },
+            "winTotal": 0
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189824418,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 3
+            },
+            "changeTotal": 0,
+            "drawTotal": 2,
+            "goalDiffTotal": 0,
+            "goalsAgainstTotal": 2,
+            "goalsForTotal": 2,
+            "lossTotal": 0,
+            "total": 2,
+            "pointsTotal": 2,
+            "pos": 3,
+            "sortPositionTotal": 3,
+            "team": {
+              "_doc": "team",
+              "_id": 215290,
+              "_sid": 1,
+              "uid": 4753,
+              "virtual": false,
+              "name": "Cape Verde",
+              "mediumname": "Cape Verde",
+              "abbr": "CPV",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 39,
+                "a2": "cv",
+                "name": "Cape Verde",
+                "a3": "CPV",
+                "ioc": "CPV",
+                "continentid": 4,
+                "continent": "Africa",
+                "population": 524000
+              }
+            },
+            "winTotal": 0
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189824414,
+            "changeTotal": -3,
+            "drawTotal": 1,
+            "goalDiffTotal": -4,
+            "goalsAgainstTotal": 5,
+            "goalsForTotal": 1,
+            "lossTotal": 1,
+            "total": 2,
+            "pointsTotal": 1,
+            "pos": 4,
+            "sortPositionTotal": 4,
+            "team": {
+              "_doc": "team",
+              "_id": 43327,
+              "_sid": 1,
+              "uid": 4834,
+              "virtual": false,
+              "name": "Saudi Arabia",
+              "mediumname": "Saudi Arabia",
+              "abbr": "KSA",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 187,
+                "a2": "sa",
+                "name": "Saudi Arabia",
+                "a3": "KSA",
+                "ioc": "KSA",
+                "continentid": 5,
+                "continent": "Asia",
+                "population": 33000000
+              }
+            },
+            "winTotal": 0
+          }
+        ],
+        "tournamentid": 3961,
+        "seasontype": "21",
+        "seasontypename": "Group stage",
+        "seasontypeunique": "91",
+        "start": {
+          "_doc": "time",
+          "time": "00:00",
+          "date": "15/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1781481600
+        },
+        "end": {
+          "_doc": "time",
+          "time": "23:59",
+          "date": "27/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1782604740
+        },
+        "roundbyround": true,
+        "order": 1000,
+        "set": [
+          {
+            "id": 2,
+            "name": "Total",
+            "headers": [
+              9,
+              1,
+              11,
+              7,
+              12,
+              2,
+              6,
+              5,
+              4,
+              3,
+              8
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Short",
+            "headers": [
+              9,
+              11,
+              7,
+              12,
+              2,
+              6,
+              3,
+              8
+            ]
+          }
+        ],
+        "header": [
+          {
+            "id": 1,
+            "name": "changeTotal",
+            "column": "",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 2,
+            "name": "drawTotal",
+            "column": "D",
+            "tooltip": "Draw",
+            "datapriority": "1"
+          },
+          {
+            "id": 3,
+            "name": "goalDiffTotal",
+            "column": "DIFF",
+            "tooltip": "Goal difference",
+            "datapriority": "1"
+          },
+          {
+            "id": 4,
+            "name": "goalsAgainstTotal",
+            "column": "GA",
+            "tooltip": "Goals against",
+            "datapriority": "4"
+          },
+          {
+            "id": 5,
+            "name": "goalsForTotal",
+            "column": "GF",
+            "tooltip": "Goals for total",
+            "datapriority": "4"
+          },
+          {
+            "id": 6,
+            "name": "lossTotal",
+            "column": "L",
+            "tooltip": "loss",
+            "datapriority": "1"
+          },
+          {
+            "id": 7,
+            "name": "total",
+            "column": "P",
+            "tooltip": "Matches played",
+            "datapriority": "1"
+          },
+          {
+            "id": 8,
+            "name": "pointsTotal",
+            "column": "PTS",
+            "tooltip": "Points",
+            "datapriority": "1"
+          },
+          {
+            "id": 9,
+            "name": "pos",
+            "column": "Pos",
+            "tooltip": "Position",
+            "datapriority": "1"
+          },
+          {
+            "id": 10,
+            "name": "sortPositionTotal",
+            "column": "",
+            "tooltip": "Sort",
+            "datapriority": "1"
+          },
+          {
+            "id": 11,
+            "name": "team",
+            "column": "Team",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 12,
+            "name": "winTotal",
+            "column": "W",
+            "tooltip": "win",
+            "datapriority": "1"
+          }
+        ],
+        "matchtype": [
+          {
+            "_doc": "matchtype",
+            "_id": 1,
+            "settypeid": 2,
+            "column": "All matches"
+          }
+        ],
+        "tabletype": [
+          {
+            "_doc": "tabletype",
+            "_id": 1,
+            "column": "Full Time"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 2,
+            "column": "1st half"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 3,
+            "column": "2nd half"
+          }
+        ]
+      },
+      {
+        "_doc": "statistics_leaguetable",
+        "_id": "81547",
+        "parenttableid": null,
+        "leaguetypeid": null,
+        "parenttableids": {},
+        "seasonid": "101177",
+        "maxrounds": 3,
+        "currentround": 2,
+        "presentationid": 0,
+        "name": "Group I",
+        "abbr": "FIFA World C",
+        "groupname": "I",
+        "tournament": {
+          "_doc": "tournament",
+          "_id": 144837,
+          "_sid": 1,
+          "_rcid": 4,
+          "_isk": 18,
+          "_tid": 144837,
+          "_utid": 16,
+          "_gender": "men",
+          "name": "FIFA World Cup, Group I",
+          "abbr": "",
+          "livetable": 81547,
+          "friendly": false,
+          "ground": null,
+          "tournamentlevelorder": 7002,
+          "tournamentlevelname": "",
+          "outdated": false,
+          "roundbyround": true,
+          "seasontype": "21",
+          "seasontypename": "Group stage",
+          "seasontypeunique": "91",
+          "groupname": "I",
+          "seasonid": 101177,
+          "currentseason": 101177,
+          "year": "2026"
+        },
+        "realcategory": {
+          "_doc": "realcategory",
+          "_id": 4,
+          "_sid": 1,
+          "_rcid": 4,
+          "name": "International",
+          "cc": null
+        },
+        "rules": {
+          "_doc": "tiebreakrule",
+          "_id": 81547,
+          "name": "In the event that two (or more) teams finish with an equal number of points, the following rules break the tie:\r\n1. Goal difference\r\n2. Goals scored\r\n3. Head-to-head games between the teams concerned\r\n3a. Points total\r\n3b. Goal difference\r\n3c. Goals scored\r\n4. Disciplinary Points\r\n5. Drawing of Lots"
+        },
+        "totalrows": 4,
+        "tablerows": [
+          {
+            "_doc": "tablerow",
+            "_id": 189833932,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 1
+            },
+            "changeTotal": 1,
+            "drawTotal": 0,
+            "goalDiffTotal": 5,
+            "goalsAgainstTotal": 1,
+            "goalsForTotal": 6,
+            "lossTotal": 0,
+            "total": 2,
+            "pointsTotal": 6,
+            "pos": 1,
+            "sortPositionTotal": 1,
+            "team": {
+              "_doc": "team",
+              "_id": 77728,
+              "_sid": 1,
+              "uid": 4481,
+              "virtual": false,
+              "name": "France",
+              "mediumname": "France",
+              "abbr": "FRA",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 73,
+                "a2": "fr",
+                "name": "France",
+                "a3": "FRA",
+                "ioc": "FRA",
+                "continentid": 1,
+                "continent": "Europe",
+                "population": 66000000
+              }
+            },
+            "winTotal": 2
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189833926,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 2
+            },
+            "changeTotal": -1,
+            "drawTotal": 0,
+            "goalDiffTotal": 4,
+            "goalsAgainstTotal": 3,
+            "goalsForTotal": 7,
+            "lossTotal": 0,
+            "total": 2,
+            "pointsTotal": 6,
+            "pos": 2,
+            "sortPositionTotal": 2,
+            "team": {
+              "_doc": "team",
+              "_id": 9542,
+              "_sid": 1,
+              "uid": 4475,
+              "virtual": false,
+              "name": "Norway",
+              "mediumname": "Norway",
+              "abbr": "NOR",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 160,
+                "a2": "no",
+                "name": "Norway",
+                "a3": "NOR",
+                "ioc": "NOR",
+                "continentid": 1,
+                "continent": "Europe",
+                "population": 5290288
+              }
+            },
+            "winTotal": 2
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189833928,
+            "changeTotal": 0,
+            "drawTotal": 0,
+            "goalDiffTotal": -3,
+            "goalsAgainstTotal": 6,
+            "goalsForTotal": 3,
+            "lossTotal": 2,
+            "total": 2,
+            "pointsTotal": 0,
+            "pos": 3,
+            "sortPositionTotal": 3,
+            "team": {
+              "_doc": "team",
+              "_id": 77731,
+              "_sid": 1,
+              "uid": 4739,
+              "virtual": false,
+              "name": "Senegal",
+              "mediumname": "Senegal",
+              "abbr": "SEN",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 188,
+                "a2": "sn",
+                "name": "Senegal",
+                "a3": "SEN",
+                "ioc": "SEN",
+                "continentid": 4,
+                "continent": "Africa",
+                "population": 15416000
+              }
+            },
+            "winTotal": 0
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189833930,
+            "changeTotal": 0,
+            "drawTotal": 0,
+            "goalDiffTotal": -6,
+            "goalsAgainstTotal": 7,
+            "goalsForTotal": 1,
+            "lossTotal": 2,
+            "total": 2,
+            "pointsTotal": 0,
+            "pos": 4,
+            "sortPositionTotal": 4,
+            "team": {
+              "_doc": "team",
+              "_id": 43333,
+              "_sid": 1,
+              "uid": 4767,
+              "virtual": false,
+              "name": "Iraq",
+              "mediumname": "Iraq",
+              "abbr": "IRQ",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 102,
+                "a2": "iq",
+                "name": "Iraq",
+                "a3": "IRQ",
+                "ioc": "IRQ",
+                "continentid": 5,
+                "continent": "Asia",
+                "population": 38654000
+              }
+            },
+            "winTotal": 0
+          }
+        ],
+        "tournamentid": 144837,
+        "seasontype": "21",
+        "seasontypename": "Group stage",
+        "seasontypeunique": "91",
+        "start": {
+          "_doc": "time",
+          "time": "00:00",
+          "date": "16/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1781568000
+        },
+        "end": {
+          "_doc": "time",
+          "time": "23:59",
+          "date": "26/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1782518340
+        },
+        "roundbyround": true,
+        "order": 1000,
+        "set": [
+          {
+            "id": 2,
+            "name": "Total",
+            "headers": [
+              9,
+              1,
+              11,
+              7,
+              12,
+              2,
+              6,
+              5,
+              4,
+              3,
+              8
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Short",
+            "headers": [
+              9,
+              11,
+              7,
+              12,
+              2,
+              6,
+              3,
+              8
+            ]
+          }
+        ],
+        "header": [
+          {
+            "id": 1,
+            "name": "changeTotal",
+            "column": "",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 2,
+            "name": "drawTotal",
+            "column": "D",
+            "tooltip": "Draw",
+            "datapriority": "1"
+          },
+          {
+            "id": 3,
+            "name": "goalDiffTotal",
+            "column": "DIFF",
+            "tooltip": "Goal difference",
+            "datapriority": "1"
+          },
+          {
+            "id": 4,
+            "name": "goalsAgainstTotal",
+            "column": "GA",
+            "tooltip": "Goals against",
+            "datapriority": "4"
+          },
+          {
+            "id": 5,
+            "name": "goalsForTotal",
+            "column": "GF",
+            "tooltip": "Goals for total",
+            "datapriority": "4"
+          },
+          {
+            "id": 6,
+            "name": "lossTotal",
+            "column": "L",
+            "tooltip": "loss",
+            "datapriority": "1"
+          },
+          {
+            "id": 7,
+            "name": "total",
+            "column": "P",
+            "tooltip": "Matches played",
+            "datapriority": "1"
+          },
+          {
+            "id": 8,
+            "name": "pointsTotal",
+            "column": "PTS",
+            "tooltip": "Points",
+            "datapriority": "1"
+          },
+          {
+            "id": 9,
+            "name": "pos",
+            "column": "Pos",
+            "tooltip": "Position",
+            "datapriority": "1"
+          },
+          {
+            "id": 10,
+            "name": "sortPositionTotal",
+            "column": "",
+            "tooltip": "Sort",
+            "datapriority": "1"
+          },
+          {
+            "id": 11,
+            "name": "team",
+            "column": "Team",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 12,
+            "name": "winTotal",
+            "column": "W",
+            "tooltip": "win",
+            "datapriority": "1"
+          }
+        ],
+        "matchtype": [
+          {
+            "_doc": "matchtype",
+            "_id": 1,
+            "settypeid": 2,
+            "column": "All matches"
+          }
+        ],
+        "tabletype": [
+          {
+            "_doc": "tabletype",
+            "_id": 1,
+            "column": "Full Time"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 2,
+            "column": "1st half"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 3,
+            "column": "2nd half"
+          }
+        ]
+      },
+      {
+        "_doc": "statistics_leaguetable",
+        "_id": "81549",
+        "parenttableid": null,
+        "leaguetypeid": null,
+        "parenttableids": {},
+        "seasonid": "101177",
+        "maxrounds": 3,
+        "currentround": 2,
+        "presentationid": 0,
+        "name": "Group J",
+        "abbr": "FIFA World C",
+        "groupname": "J",
+        "tournament": {
+          "_doc": "tournament",
+          "_id": 144839,
+          "_sid": 1,
+          "_rcid": 4,
+          "_isk": 18,
+          "_tid": 144839,
+          "_utid": 16,
+          "_gender": "men",
+          "name": "FIFA World Cup, Group J",
+          "abbr": "",
+          "livetable": 81549,
+          "friendly": false,
+          "ground": null,
+          "tournamentlevelorder": 7002,
+          "tournamentlevelname": "",
+          "outdated": false,
+          "roundbyround": true,
+          "seasontype": "21",
+          "seasontypename": "Group stage",
+          "seasontypeunique": "91",
+          "groupname": "J",
+          "seasonid": 101177,
+          "currentseason": 101177,
+          "year": "2026"
+        },
+        "realcategory": {
+          "_doc": "realcategory",
+          "_id": 4,
+          "_sid": 1,
+          "_rcid": 4,
+          "name": "International",
+          "cc": null
+        },
+        "rules": {
+          "_doc": "tiebreakrule",
+          "_id": 81549,
+          "name": "In the event that two (or more) teams finish with an equal number of points, the following rules break the tie:\r\n1. Goal difference\r\n2. Goals scored\r\n3. Head-to-head games between the teams concerned\r\n3a. Points total\r\n3b. Goal difference\r\n3c. Goals scored\r\n4. Disciplinary Points\r\n5. Drawing of Lots"
+        },
+        "totalrows": 4,
+        "tablerows": [
+          {
+            "_doc": "tablerow",
+            "_id": 189832424,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 1
+            },
+            "changeTotal": 0,
+            "drawTotal": 0,
+            "goalDiffTotal": 5,
+            "goalsAgainstTotal": 0,
+            "goalsForTotal": 5,
+            "lossTotal": 0,
+            "total": 2,
+            "pointsTotal": 6,
+            "pos": 1,
+            "sortPositionTotal": 1,
+            "team": {
+              "_doc": "team",
+              "_id": 9553,
+              "_sid": 1,
+              "uid": 4819,
+              "virtual": false,
+              "name": "Argentina",
+              "mediumname": "Argentina",
+              "abbr": "ARG",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 10,
+                "a2": "ar",
+                "name": "Argentina",
+                "a3": "ARG",
+                "ioc": "ARG",
+                "continentid": 3,
+                "continent": "South America",
+                "population": 44293000
+              }
+            },
+            "winTotal": 2
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189832426,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 2
+            },
+            "changeTotal": 0,
+            "drawTotal": 0,
+            "goalDiffTotal": 0,
+            "goalsAgainstTotal": 3,
+            "goalsForTotal": 3,
+            "lossTotal": 1,
+            "total": 2,
+            "pointsTotal": 3,
+            "pos": 2,
+            "sortPositionTotal": 2,
+            "team": {
+              "_doc": "team",
+              "_id": 9518,
+              "_sid": 1,
+              "uid": 4718,
+              "virtual": false,
+              "name": "Austria",
+              "mediumname": "Austria",
+              "abbr": "AUT",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 14,
+                "a2": "at",
+                "name": "Austria",
+                "a3": "AUT",
+                "ioc": "AUT",
+                "continentid": 1,
+                "continent": "Europe",
+                "population": 8772000
+              }
+            },
+            "winTotal": 1
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189832422,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 3
+            },
+            "changeTotal": 1,
+            "drawTotal": 0,
+            "goalDiffTotal": -2,
+            "goalsAgainstTotal": 4,
+            "goalsForTotal": 2,
+            "lossTotal": 1,
+            "total": 2,
+            "pointsTotal": 3,
+            "pos": 3,
+            "sortPositionTotal": 3,
+            "team": {
+              "_doc": "team",
+              "_id": 18008,
+              "_sid": 1,
+              "uid": 4691,
+              "virtual": false,
+              "name": "Algeria",
+              "mediumname": "Algeria",
+              "abbr": "DZA",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 3,
+                "a2": "dz",
+                "name": "Algeria",
+                "a3": "DZA",
+                "ioc": "ALG",
+                "continentid": 4,
+                "continent": "Africa",
+                "population": 37400000
+              }
+            },
+            "winTotal": 1
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189832428,
+            "changeTotal": -1,
+            "drawTotal": 0,
+            "goalDiffTotal": -3,
+            "goalsAgainstTotal": 5,
+            "goalsForTotal": 2,
+            "lossTotal": 2,
+            "total": 2,
+            "pointsTotal": 0,
+            "pos": 4,
+            "sortPositionTotal": 4,
+            "team": {
+              "_doc": "team",
+              "_id": 146851,
+              "_sid": 1,
+              "uid": 4771,
+              "virtual": false,
+              "name": "Jordan",
+              "mediumname": "Jordan",
+              "abbr": "JOR",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 108,
+                "a2": "jo",
+                "name": "Jordan",
+                "a3": "JOR",
+                "ioc": "JOR",
+                "continentid": 5,
+                "continent": "Asia",
+                "population": 10011000
+              }
+            },
+            "winTotal": 0
+          }
+        ],
+        "tournamentid": 144839,
+        "seasontype": "21",
+        "seasontypename": "Group stage",
+        "seasontypeunique": "91",
+        "start": {
+          "_doc": "time",
+          "time": "00:00",
+          "date": "17/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1781654400
+        },
+        "end": {
+          "_doc": "time",
+          "time": "23:59",
+          "date": "28/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1782691140
+        },
+        "roundbyround": true,
+        "order": 1000,
+        "set": [
+          {
+            "id": 2,
+            "name": "Total",
+            "headers": [
+              9,
+              1,
+              11,
+              7,
+              12,
+              2,
+              6,
+              5,
+              4,
+              3,
+              8
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Short",
+            "headers": [
+              9,
+              11,
+              7,
+              12,
+              2,
+              6,
+              3,
+              8
+            ]
+          }
+        ],
+        "header": [
+          {
+            "id": 1,
+            "name": "changeTotal",
+            "column": "",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 2,
+            "name": "drawTotal",
+            "column": "D",
+            "tooltip": "Draw",
+            "datapriority": "1"
+          },
+          {
+            "id": 3,
+            "name": "goalDiffTotal",
+            "column": "DIFF",
+            "tooltip": "Goal difference",
+            "datapriority": "1"
+          },
+          {
+            "id": 4,
+            "name": "goalsAgainstTotal",
+            "column": "GA",
+            "tooltip": "Goals against",
+            "datapriority": "4"
+          },
+          {
+            "id": 5,
+            "name": "goalsForTotal",
+            "column": "GF",
+            "tooltip": "Goals for total",
+            "datapriority": "4"
+          },
+          {
+            "id": 6,
+            "name": "lossTotal",
+            "column": "L",
+            "tooltip": "loss",
+            "datapriority": "1"
+          },
+          {
+            "id": 7,
+            "name": "total",
+            "column": "P",
+            "tooltip": "Matches played",
+            "datapriority": "1"
+          },
+          {
+            "id": 8,
+            "name": "pointsTotal",
+            "column": "PTS",
+            "tooltip": "Points",
+            "datapriority": "1"
+          },
+          {
+            "id": 9,
+            "name": "pos",
+            "column": "Pos",
+            "tooltip": "Position",
+            "datapriority": "1"
+          },
+          {
+            "id": 10,
+            "name": "sortPositionTotal",
+            "column": "",
+            "tooltip": "Sort",
+            "datapriority": "1"
+          },
+          {
+            "id": 11,
+            "name": "team",
+            "column": "Team",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 12,
+            "name": "winTotal",
+            "column": "W",
+            "tooltip": "win",
+            "datapriority": "1"
+          }
+        ],
+        "matchtype": [
+          {
+            "_doc": "matchtype",
+            "_id": 1,
+            "settypeid": 2,
+            "column": "All matches"
+          }
+        ],
+        "tabletype": [
+          {
+            "_doc": "tabletype",
+            "_id": 1,
+            "column": "Full Time"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 2,
+            "column": "1st half"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 3,
+            "column": "2nd half"
+          }
+        ]
+      },
+      {
+        "_doc": "statistics_leaguetable",
+        "_id": "81551",
+        "parenttableid": null,
+        "leaguetypeid": null,
+        "parenttableids": {},
+        "seasonid": "101177",
+        "maxrounds": 3,
+        "currentround": 2,
+        "presentationid": 0,
+        "name": "Group K",
+        "abbr": "FIFA World C",
+        "groupname": "K",
+        "tournament": {
+          "_doc": "tournament",
+          "_id": 144841,
+          "_sid": 1,
+          "_rcid": 4,
+          "_isk": 18,
+          "_tid": 144841,
+          "_utid": 16,
+          "_gender": "men",
+          "name": "FIFA World Cup, Group K",
+          "abbr": "",
+          "livetable": 81551,
+          "friendly": false,
+          "ground": null,
+          "tournamentlevelorder": 7002,
+          "tournamentlevelname": "",
+          "outdated": false,
+          "roundbyround": true,
+          "seasontype": "21",
+          "seasontypename": "Group stage",
+          "seasontypeunique": "91",
+          "groupname": "K",
+          "seasonid": 101177,
+          "currentseason": 101177,
+          "year": "2026"
+        },
+        "realcategory": {
+          "_doc": "realcategory",
+          "_id": 4,
+          "_sid": 1,
+          "_rcid": 4,
+          "name": "International",
+          "cc": null
+        },
+        "rules": {
+          "_doc": "tiebreakrule",
+          "_id": 81551,
+          "name": "In the event that two (or more) teams finish with an equal number of points, the following rules break the tie:\r\n1. Goal difference\r\n2. Goals scored\r\n3. Head-to-head games between the teams concerned\r\n3a. Points total\r\n3b. Goal difference\r\n3c. Goals scored\r\n4. Disciplinary Points\r\n5. Drawing of Lots"
+        },
+        "totalrows": 4,
+        "tablerows": [
+          {
+            "_doc": "tablerow",
+            "_id": 189837992,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 1
+            },
+            "changeTotal": 0,
+            "drawTotal": 0,
+            "goalDiffTotal": 3,
+            "goalsAgainstTotal": 1,
+            "goalsForTotal": 4,
+            "lossTotal": 0,
+            "total": 2,
+            "pointsTotal": 6,
+            "pos": 1,
+            "sortPositionTotal": 1,
+            "team": {
+              "_doc": "team",
+              "_id": 9547,
+              "_sid": 1,
+              "uid": 4820,
+              "virtual": false,
+              "name": "Colombia",
+              "mediumname": "Colombia",
+              "abbr": "COL",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 47,
+                "a2": "co",
+                "name": "Colombia",
+                "a3": "COL",
+                "ioc": "COL",
+                "continentid": 3,
+                "continent": "South America",
+                "population": 49364000
+              }
+            },
+            "winTotal": 2
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189837990,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 2
+            },
+            "changeTotal": 0,
+            "drawTotal": 1,
+            "goalDiffTotal": 5,
+            "goalsAgainstTotal": 1,
+            "goalsForTotal": 6,
+            "lossTotal": 0,
+            "total": 2,
+            "pointsTotal": 4,
+            "pos": 2,
+            "sortPositionTotal": 2,
+            "team": {
+              "_doc": "team",
+              "_id": 9531,
+              "_sid": 1,
+              "uid": 4704,
+              "virtual": false,
+              "name": "Portugal",
+              "mediumname": "Portugal",
+              "abbr": "POR",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 172,
+                "a2": "pt",
+                "name": "Portugal",
+                "a3": "PRT",
+                "ioc": "POR",
+                "continentid": 1,
+                "continent": "Europe",
+                "population": 10600000
+              }
+            },
+            "winTotal": 1
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189837996,
+            "changeTotal": -1,
+            "drawTotal": 1,
+            "goalDiffTotal": -1,
+            "goalsAgainstTotal": 2,
+            "goalsForTotal": 1,
+            "lossTotal": 1,
+            "total": 2,
+            "pointsTotal": 1,
+            "pos": 3,
+            "sortPositionTotal": 3,
+            "team": {
+              "_doc": "team",
+              "_id": 21189,
+              "_sid": 1,
+              "uid": 4823,
+              "virtual": false,
+              "name": "Congo DR",
+              "mediumname": "Congo DR",
+              "abbr": "COD",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 50,
+                "a2": "cd",
+                "name": "Congo DR",
+                "a3": "COD",
+                "ioc": "COD",
+                "continentid": 4,
+                "continent": "Africa",
+                "population": 78736000
+              }
+            },
+            "winTotal": 0
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189837994,
+            "changeTotal": 0,
+            "drawTotal": 0,
+            "goalDiffTotal": -7,
+            "goalsAgainstTotal": 8,
+            "goalsForTotal": 1,
+            "lossTotal": 2,
+            "total": 2,
+            "pointsTotal": 0,
+            "pos": 4,
+            "sortPositionTotal": 4,
+            "team": {
+              "_doc": "team",
+              "_id": 311459,
+              "_sid": 1,
+              "uid": 4723,
+              "virtual": false,
+              "name": "Uzbekistan",
+              "mediumname": "Uzbekistan",
+              "abbr": "UZB",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 229,
+                "a2": "uz",
+                "name": "Uzbekistan",
+                "a3": "UZB",
+                "ioc": "UZB",
+                "continentid": 5,
+                "continent": "Asia",
+                "population": 32979000
+              }
+            },
+            "winTotal": 0
+          }
+        ],
+        "tournamentid": 144841,
+        "seasontype": "21",
+        "seasontypename": "Group stage",
+        "seasontypeunique": "91",
+        "start": {
+          "_doc": "time",
+          "time": "00:00",
+          "date": "17/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1781654400
+        },
+        "end": {
+          "_doc": "time",
+          "time": "23:59",
+          "date": "27/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1782604740
+        },
+        "roundbyround": true,
+        "order": 1000,
+        "set": [
+          {
+            "id": 2,
+            "name": "Total",
+            "headers": [
+              9,
+              1,
+              11,
+              7,
+              12,
+              2,
+              6,
+              5,
+              4,
+              3,
+              8
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Short",
+            "headers": [
+              9,
+              11,
+              7,
+              12,
+              2,
+              6,
+              3,
+              8
+            ]
+          }
+        ],
+        "header": [
+          {
+            "id": 1,
+            "name": "changeTotal",
+            "column": "",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 2,
+            "name": "drawTotal",
+            "column": "D",
+            "tooltip": "Draw",
+            "datapriority": "1"
+          },
+          {
+            "id": 3,
+            "name": "goalDiffTotal",
+            "column": "DIFF",
+            "tooltip": "Goal difference",
+            "datapriority": "1"
+          },
+          {
+            "id": 4,
+            "name": "goalsAgainstTotal",
+            "column": "GA",
+            "tooltip": "Goals against",
+            "datapriority": "4"
+          },
+          {
+            "id": 5,
+            "name": "goalsForTotal",
+            "column": "GF",
+            "tooltip": "Goals for total",
+            "datapriority": "4"
+          },
+          {
+            "id": 6,
+            "name": "lossTotal",
+            "column": "L",
+            "tooltip": "loss",
+            "datapriority": "1"
+          },
+          {
+            "id": 7,
+            "name": "total",
+            "column": "P",
+            "tooltip": "Matches played",
+            "datapriority": "1"
+          },
+          {
+            "id": 8,
+            "name": "pointsTotal",
+            "column": "PTS",
+            "tooltip": "Points",
+            "datapriority": "1"
+          },
+          {
+            "id": 9,
+            "name": "pos",
+            "column": "Pos",
+            "tooltip": "Position",
+            "datapriority": "1"
+          },
+          {
+            "id": 10,
+            "name": "sortPositionTotal",
+            "column": "",
+            "tooltip": "Sort",
+            "datapriority": "1"
+          },
+          {
+            "id": 11,
+            "name": "team",
+            "column": "Team",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 12,
+            "name": "winTotal",
+            "column": "W",
+            "tooltip": "win",
+            "datapriority": "1"
+          }
+        ],
+        "matchtype": [
+          {
+            "_doc": "matchtype",
+            "_id": 1,
+            "settypeid": 2,
+            "column": "All matches"
+          }
+        ],
+        "tabletype": [
+          {
+            "_doc": "tabletype",
+            "_id": 1,
+            "column": "Full Time"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 2,
+            "column": "1st half"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 3,
+            "column": "2nd half"
+          }
+        ]
+      },
+      {
+        "_doc": "statistics_leaguetable",
+        "_id": "81553",
+        "parenttableid": null,
+        "leaguetypeid": null,
+        "parenttableids": {},
+        "seasonid": "101177",
+        "maxrounds": 3,
+        "currentround": 2,
+        "presentationid": 0,
+        "name": "Group L",
+        "abbr": "FIFA World C",
+        "groupname": "L",
+        "tournament": {
+          "_doc": "tournament",
+          "_id": 144843,
+          "_sid": 1,
+          "_rcid": 4,
+          "_isk": 18,
+          "_tid": 144843,
+          "_utid": 16,
+          "_gender": "men",
+          "name": "FIFA World Cup, Group L",
+          "abbr": "",
+          "livetable": 81553,
+          "friendly": false,
+          "ground": null,
+          "tournamentlevelorder": 7002,
+          "tournamentlevelname": "",
+          "outdated": false,
+          "roundbyround": true,
+          "seasontype": "21",
+          "seasontypename": "Group stage",
+          "seasontypeunique": "91",
+          "groupname": "L",
+          "seasonid": 101177,
+          "currentseason": 101177,
+          "year": "2026"
+        },
+        "realcategory": {
+          "_doc": "realcategory",
+          "_id": 4,
+          "_sid": 1,
+          "_rcid": 4,
+          "name": "International",
+          "cc": null
+        },
+        "rules": {
+          "_doc": "tiebreakrule",
+          "_id": 81553,
+          "name": "In the event that two (or more) teams finish with an equal number of points, the following rules break the tie:\r\n1. Goal difference\r\n2. Goals scored\r\n3. Head-to-head games between the teams concerned\r\n3a. Points total\r\n3b. Goal difference\r\n3c. Goals scored\r\n4. Disciplinary Points\r\n5. Drawing of Lots"
+        },
+        "totalrows": 4,
+        "tablerows": [
+          {
+            "_doc": "tablerow",
+            "_id": 189838662,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 1
+            },
+            "changeTotal": 0,
+            "drawTotal": 1,
+            "goalDiffTotal": 2,
+            "goalsAgainstTotal": 2,
+            "goalsForTotal": 4,
+            "lossTotal": 0,
+            "total": 2,
+            "pointsTotal": 4,
+            "pos": 1,
+            "sortPositionTotal": 1,
+            "team": {
+              "_doc": "team",
+              "_id": 6170,
+              "_sid": 1,
+              "uid": 4713,
+              "virtual": false,
+              "name": "England",
+              "mediumname": "England",
+              "abbr": "ENG",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 240,
+                "a2": "en",
+                "name": "England",
+                "a3": "ENG",
+                "ioc": "ENG",
+                "continentid": 1,
+                "continent": "Europe",
+                "population": 51500000
+              }
+            },
+            "winTotal": 1
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189838658,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 2
+            },
+            "changeTotal": 0,
+            "drawTotal": 1,
+            "goalDiffTotal": 1,
+            "goalsAgainstTotal": 0,
+            "goalsForTotal": 1,
+            "lossTotal": 0,
+            "total": 2,
+            "pointsTotal": 4,
+            "pos": 2,
+            "sortPositionTotal": 2,
+            "team": {
+              "_doc": "team",
+              "_id": 205064,
+              "_sid": 1,
+              "uid": 4764,
+              "virtual": false,
+              "name": "Ghana",
+              "mediumname": "Ghana",
+              "abbr": "GHA",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 81,
+                "a2": "gh",
+                "name": "Ghana",
+                "a3": "GHA",
+                "ioc": "GHA",
+                "continentid": 4,
+                "continent": "Africa",
+                "population": 22800000
+              }
+            },
+            "winTotal": 1
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189838656,
+            "promotion": {
+              "_doc": "promotion",
+              "_id": 9,
+              "name": "Playoffs",
+              "shortname": "playoff",
+              "cssclass": "promotioncolor_playoff",
+              "position": 3
+            },
+            "changeTotal": 1,
+            "drawTotal": 0,
+            "goalDiffTotal": -1,
+            "goalsAgainstTotal": 4,
+            "goalsForTotal": 3,
+            "lossTotal": 1,
+            "total": 2,
+            "pointsTotal": 3,
+            "pos": 3,
+            "sortPositionTotal": 3,
+            "team": {
+              "_doc": "team",
+              "_id": 10005,
+              "_sid": 1,
+              "uid": 4715,
+              "virtual": false,
+              "name": "Croatia",
+              "mediumname": "Croatia",
+              "abbr": "CRO",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 54,
+                "a2": "hr",
+                "name": "Croatia",
+                "a3": "HRV",
+                "ioc": "CRO",
+                "continentid": 1,
+                "continent": "Europe",
+                "population": 4290612
+              }
+            },
+            "winTotal": 1
+          },
+          {
+            "_doc": "tablerow",
+            "_id": 189838660,
+            "changeTotal": -1,
+            "drawTotal": 0,
+            "goalDiffTotal": -2,
+            "goalsAgainstTotal": 2,
+            "goalsForTotal": 0,
+            "lossTotal": 2,
+            "total": 2,
+            "pointsTotal": 0,
+            "pos": 4,
+            "sortPositionTotal": 4,
+            "team": {
+              "_doc": "team",
+              "_id": 311456,
+              "_sid": 1,
+              "uid": 5164,
+              "virtual": false,
+              "name": "Panama",
+              "mediumname": "Panama",
+              "abbr": "PAN",
+              "nickname": null,
+              "iscountry": true,
+              "haslogo": true,
+              "cc": {
+                "_doc": "countrycode",
+                "_id": 165,
+                "a2": "pa",
+                "name": "Panama",
+                "a3": "PAN",
+                "ioc": "PAN",
+                "continentid": 2,
+                "continent": "North America",
+                "population": 4034000
+              }
+            },
+            "winTotal": 0
+          }
+        ],
+        "tournamentid": 144843,
+        "seasontype": "21",
+        "seasontypename": "Group stage",
+        "seasontypeunique": "91",
+        "start": {
+          "_doc": "time",
+          "time": "00:00",
+          "date": "17/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1781654400
+        },
+        "end": {
+          "_doc": "time",
+          "time": "23:59",
+          "date": "27/06/26",
+          "tz": "UTC",
+          "tzoffset": 0,
+          "uts": 1782604740
+        },
+        "roundbyround": true,
+        "order": 1000,
+        "set": [
+          {
+            "id": 2,
+            "name": "Total",
+            "headers": [
+              9,
+              1,
+              11,
+              7,
+              12,
+              2,
+              6,
+              5,
+              4,
+              3,
+              8
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Short",
+            "headers": [
+              9,
+              11,
+              7,
+              12,
+              2,
+              6,
+              3,
+              8
+            ]
+          }
+        ],
+        "header": [
+          {
+            "id": 1,
+            "name": "changeTotal",
+            "column": "",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 2,
+            "name": "drawTotal",
+            "column": "D",
+            "tooltip": "Draw",
+            "datapriority": "1"
+          },
+          {
+            "id": 3,
+            "name": "goalDiffTotal",
+            "column": "DIFF",
+            "tooltip": "Goal difference",
+            "datapriority": "1"
+          },
+          {
+            "id": 4,
+            "name": "goalsAgainstTotal",
+            "column": "GA",
+            "tooltip": "Goals against",
+            "datapriority": "4"
+          },
+          {
+            "id": 5,
+            "name": "goalsForTotal",
+            "column": "GF",
+            "tooltip": "Goals for total",
+            "datapriority": "4"
+          },
+          {
+            "id": 6,
+            "name": "lossTotal",
+            "column": "L",
+            "tooltip": "loss",
+            "datapriority": "1"
+          },
+          {
+            "id": 7,
+            "name": "total",
+            "column": "P",
+            "tooltip": "Matches played",
+            "datapriority": "1"
+          },
+          {
+            "id": 8,
+            "name": "pointsTotal",
+            "column": "PTS",
+            "tooltip": "Points",
+            "datapriority": "1"
+          },
+          {
+            "id": 9,
+            "name": "pos",
+            "column": "Pos",
+            "tooltip": "Position",
+            "datapriority": "1"
+          },
+          {
+            "id": 10,
+            "name": "sortPositionTotal",
+            "column": "",
+            "tooltip": "Sort",
+            "datapriority": "1"
+          },
+          {
+            "id": 11,
+            "name": "team",
+            "column": "Team",
+            "tooltip": "",
+            "datapriority": "1"
+          },
+          {
+            "id": 12,
+            "name": "winTotal",
+            "column": "W",
+            "tooltip": "win",
+            "datapriority": "1"
+          }
+        ],
+        "matchtype": [
+          {
+            "_doc": "matchtype",
+            "_id": 1,
+            "settypeid": 2,
+            "column": "All matches"
+          }
+        ],
+        "tabletype": [
+          {
+            "_doc": "tabletype",
+            "_id": 1,
+            "column": "Full Time"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 2,
+            "column": "1st half"
+          },
+          {
+            "_doc": "tabletype",
+            "_id": 3,
+            "column": "2nd half"
+          }
+        ]
+      }
+    ]
+  }
+}
